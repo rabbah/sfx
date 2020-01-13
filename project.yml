@@ -4,5 +4,5 @@ packages:
       - name: hello
         main: lambda_handler
         environment:
-          SIGNALFX_INGEST_ENDPOINT: "https://ingest.us1.signalfx.com"
+          SIGNALFX_INGEST_ENDPOINT: ${SIGNALFX_INGEST_ENDPOINT}
           SIGNALFX_ACCESS_TOKEN: ${SIGNALFX_ACCESS_TOKEN}

@@ -7,6 +7,7 @@ git clone https://github.com/rabbah/sfx.git
 
 To deploy this project first export your SignalFx API token.
 ```bash
+export SIGNALFX_INGEST_ENDPOINT=<your ingest endpoint> # e.g., https://ingest.us1.signalfx.com
 export SIGNALFX_ACCESS_TOKEN=<your secret token>
 ```
 
