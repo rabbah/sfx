@@ -11,7 +11,8 @@ export SIGNALFX_INGEST_ENDPOINT=<your ingest endpoint> # e.g., https://ingest.us
 export SIGNALFX_ACCESS_TOKEN=<your secret token>
 ```
 
-You can also save the API token to a `.env` file.
+You may also save the API ingest endpoint and token to a `.env` file.
+Note: `https://` is required on your ingest endpoint.
 
 Then deploy the project:
 ```bash
